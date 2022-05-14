@@ -1,4 +1,5 @@
-![flujo de trabajo de ejemplo](https://github.com/Pj6595/ProyectoUAJ/actions/workflows/BuildAndRunPipeline.yml/badge.svg)
+![test de integración](https://github.com/Pj6595/ProyectoUAJ/actions/workflows/BuildAndRunPipeline.yml/badge.svg)
+![despliegue](https://github.com/Pj6595/ProyectoUAJ/actions/workflows/DeployPipeline.yml/badge.svg)
 
 # Proyecto UAJ - Tests de integración, flujo de Integración continua y alojamiento en servidor externo 
 

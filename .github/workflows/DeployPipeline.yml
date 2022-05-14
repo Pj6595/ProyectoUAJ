@@ -1,0 +1,50 @@
+name: Deploy to Azure
+on: 
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deployBuild:
+    runs-on: windows-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      
+      - name: Add msbuild to PATH
+        uses: microsoft/setup-msbuild@v1.1
+
+      - name: restore
+        run: dotnet restore .\MMOTFG_Bot\
+      
+      - name: build
+        run: MSBuild.exe .\MMOTFG_Bot\MMOTFG_Bot\MMOTFG_Bot.csproj /p:Configuration=Release
+
+      - name: create private folder
+        run: mkdir .\MMOTFG_Bot\MMOTFG_Bot\assets\private\
+
+      - name: createDatabaseFile
+        run: echo .\MMOTFG_Bot\MMOTFG_Bot\assets\private\firebase-admin.json 
+      
+      - name: writeDatabaseFile
+        run: echo '${{secrets.FIREBASE_TOKEN}}' >> .\MMOTFG_Bot\MMOTFG_Bot\assets\private\firebase-admin.json
+
+      - name: createTelegramFile
+        run: echo .\MMOTFG_Bot\MMOTFG_Bot\assets\private\token.txt 
+      
+      - name: writeTelegramFile
+        run: echo '${{secrets.TELEGRAM_TOKEN}}' >> .\MMOTFG_Bot\MMOTFG_Bot\assets\private\token.txt
+      
+      - name: dockerLogin
+        run: docker login ${{secrets.AZURE_SERVER_URL}} -u ${{secrets.AZURE_SERVER_USERNAME}} -p ${{secrets.AZURE_SERVER_PASSWORD}}
+      
+      - name: dockerBuild
+        run: MSBuild.exe .\MMOTFG_Bot\MMOTFG_Bot\MMOTFG_Bot.csproj /t:ContainerBuild /p:Configuration=Release
+
+      - name: dockerImageName
+        run: docker image tag mmotfgbot ${{secrets.AZURE_SERVER_URL}}/mmotfgbot:latest
+
+      - name: dockerPushImage
+        run: docker push ${{secrets.AZURE_SERVER_URL}}/mmotfgbot:latest         
