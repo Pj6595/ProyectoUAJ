@@ -1,4 +1,4 @@
-name: BuildAndRunPipeline
+name: Build, run and output check
 
 on: 
   push:
