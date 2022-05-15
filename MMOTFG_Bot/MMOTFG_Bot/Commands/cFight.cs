@@ -20,14 +20,13 @@ namespace MMOTFG_Bot.Commands
 
         internal override async Task Execute(string command, string chatId, string[] args = null)
         {
-            //habría que preguntar al mapa qué enemigo hay en esta sala
-            await BattleSystem.StartBattle(chatId, JSONSystem.GetEnemy("Manuela"));
+            await BattleSystem.StartBattle(chatId, JSONSystem.GetEnemy(args[0]));
         }
 
         internal override bool IsFormattedCorrectly(string[] args)
         {
-            //Format: /fight
-            return true;
+            //Format: /fight [enemy name]
+            return args.Length == 1;
         }
     }
 }

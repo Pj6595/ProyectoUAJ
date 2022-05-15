@@ -1,3 +1,36 @@
-Hello juan, ready for a good time?
+Hello test, ready for a good time?
 En mi habitación no hay mucho que ver. Debería bajar a ver qué hacen los demás (o también podría quedarme jugando al Elden Ring lmao).
-Can't move in that direction
+Item health_potion couldn't be consumed as it was not found in your inventory
+Item health_potion couldn't be added because inventory is full.
+Item health_potion was added 50 times
+Gained 500HP
+Gained 500HP
+Item health_potion was consumed 2 times
+Why would you eat a potion you freak.
+Your health has been reduced by 2 points.
+Item health_potion was consumed.
+Item health_potion was thrown away 2 times
+Item tfury couldn't be equipped as it was not found in your inventory
+Item tfury was added to the inventory.
+You have equipped tfuryon your weapon slot.
+ATK +10
+HP -5
+Item tfury was consumed.
+Couldn't unequip an item from your head gear slot because it's empty.
+You have unequipped tfury from your weapon slot.
+ATK -10
+HP +5
+Item tfury was added to the inventory.
+Couldn't unequip an item from your weapon gear slot because it's empty.
+User inventory:
+health_potion x5
+health_potion x5
+health_potion x5
+health_potion x5
+health_potion x5
+health_potion x5
+health_potion x5
+health_potion x5
+health_potion x5
+tfury x1
+

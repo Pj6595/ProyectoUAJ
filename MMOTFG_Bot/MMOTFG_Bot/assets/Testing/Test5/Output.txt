@@ -1,0 +1,30 @@
+Hello test, ready for a good time?
+En mi habitación no hay mucho que ver. Debería bajar a ver qué hacen los demás (o también podría quedarme jugando al Elden Ring lmao).
+Item tfury was added to the inventory.
+Mi habitación está al final del pasillo. Justo enfrente está la de Pj. Parece que tiene montada una rave en su habitación??? En fin, la salida está hacia el sur.
+En cuanto piso el pasillo sé que algo anda mal. Cuando hay tan poca gente por aquí es porque ÉL anda de guardia. Y si no hemos terminado de hacer el proyecto de construct... Pues eso, que de aquí no paso lol-
+manuela.jpg
+fedejimbo.png
+Manuela and Fedejimbo appear!
+Manuela's turn
+Manuela used Slap! test took 10 damage.
+test HP: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
+Patada
+Burla
+Overkill
+I can't run away from battles!
+Can't equip gear in battle
+Item health_potion was added 2 times
+Gained 500HP
+Item health_potion was consumed.
+Fedejimbo's turn
+Fedejimbo used Deconstructción! test took 20 damage.
+test HP: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥
+El poder de la amistad cura 5 HP a Manuela.
+Manuela's turn
+Manuela's ATK was multiplied by 2!
+Manuela used Swords Dance!
+Patada
+Burla
+Overkill
+Item health_potion was thrown away.

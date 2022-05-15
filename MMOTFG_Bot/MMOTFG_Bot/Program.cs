@@ -51,6 +51,7 @@ namespace MMOTFG_Bot
 			JSONSystem.Init("assets/enemies.json", "assets/player.json", "assets/attacks.json", "assets/items.json");
 			BattleSystem.Init();
 			DatabaseManager.Init();
+			RNG.Init();
 			foreach (ICommand c in commandList)
 			{
 				c.SetKeywords();
@@ -59,12 +60,13 @@ namespace MMOTFG_Bot
 			createCommand.SetKeywords();
 			helpCommand.setCommandList(new List<ICommand>(commandList));
 
-			if (args[0] == "-t")
+			if (args.Length > 0 && args[0] == "-t")
             {
 				//File Communicator
 				Communicator = new FileCommunicator();
 
 				FileCommunicator f = Communicator as FileCommunicator;
+
 				if (f != null)
 				{
 					await OnFileRead(f);
@@ -171,7 +173,7 @@ namespace MMOTFG_Bot
 			}
 		}
 
-		static private async Task ReceiveMessage(string message, string chatId = "4353453")
+		static private async Task ReceiveMessage(string message, string chatId = "1")
         {
 			List<string> subStrings = ProcessMessage(message);
 			string command = subStrings[0];
@@ -202,7 +204,19 @@ namespace MMOTFG_Bot
         {
 			var paths = Directory.GetDirectories(f.BasePath);
 			foreach(string path in paths){
-				f.Init(path + "/Input.txt", path + "/Output.txt");
+				f.Init(path + "/Input.txt", path + "/Output.txt", path + "/Seed.txt");
+				//if seed is needed
+				try
+				{
+					StreamReader seedFile = new StreamReader(f.SeedPath);
+					int seed = Convert.ToInt32(seedFile.ReadLine());
+					RNG.Init(seed);
+				}
+                catch
+                {
+
+                }
+
 				StreamReader inputFile = new StreamReader(f.InputPath);
 				string line;
 				while ((line = inputFile.ReadLine()) != null)

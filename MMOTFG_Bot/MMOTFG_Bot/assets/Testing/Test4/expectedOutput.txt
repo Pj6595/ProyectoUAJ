@@ -1,0 +1,29 @@
+﻿You need a character to play, use /create to create a new character
+Hello test, ready for a good time?
+En mi habitación no hay mucho que ver. Debería bajar a ver qué hacen los demás (o también podría quedarme jugando al Elden Ring lmao).
+Use: delete [character name]. You can only delete you own character!
+Bye 😭
+Hello test2, ready for a good time?
+En mi habitación no hay mucho que ver. Debería bajar a ver qué hacen los demás (o también podría quedarme jugando al Elden Ring lmao).
+Unrecognized command.
+ Try /help if you don't know what to use
+test2 Status:
+HP: 100/100
+ATK: 10
+SPE: 10
+MP: 100/100
+
+User equipment:
+
+HEAD:  empty
+FEET:  empty
+HANDS:  empty
+WRISTS:  empty
+FINGER:  empty
+TRINKET:  empty
+WEAPON:  empty
+CHEST:  empty
+LEGS:  empty
+WAIST:  empty
+BACK:  empty
+NECK:  empty

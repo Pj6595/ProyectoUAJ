@@ -1,0 +1,10 @@
+delete all
+create test
+add tfury
+go puerta
+go south
+go north
+equip tfury
+add health_potion 2
+drink health_potion
+throw health_potion
