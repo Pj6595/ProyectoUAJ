@@ -1,5 +1,93 @@
-Hello pablo, ready for a good time?
-En mi habitaci�n no hay mucho que ver. Deber�a bajar a ver qu� hacen los dem�s (o tambi�n podr�a quedarme jugando al Elden Ring lmao).
-The specified item doesn't exist
-The specified equippable item or gear slot doesn't exist
-Can't move in that direction
+﻿Hello test, ready for a good time?
+En mi habitación no hay mucho que ver. Debería bajar a ver qué hacen los demás (o también podría quedarme jugando al Elden Ring lmao).
+fedejimbo.png
+¡Fedejimbo no te deja pasar de esta esquina!
+Patada
+Burla
+Overkill
+Invalid attack
+Fedejimbo's ATK was multiplied by 0,5!
+test used Burla!
+Fedejimbo's turn
+Fedejimbo used Chapa en PowerPoint! test took 5 damage.
+test HP: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
+Patada
+Burla
+Overkill
+test used Patada! Fedejimbo took 30 damage.
+Fedejimbo HP: 🟩🟩🟩🟩🟩🟩🟩🟩🟥🟥
+Fedejimbo's turn
+Fedejimbo used Deconstructción! test took 10 damage.
+test HP: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥
+Patada
+Burla
+Overkill
+test used Overkill! Fedejimbo took 1000 damage.
+Item mana_potion was added 2 times
+Fedejimbo died!
+You gained 666€
+You obtained mana_potion x2
+Gained 1 experience points.
+Reached level 2!
+HP +100
+ATK +21
+SPE +15
+MP +0
+
+Learnt Tortazo!
+Reply Markup removed
+fedejimbo.png
+¡Fedejimbo no te deja pasar de esta esquina!
+Tortazo
+Patada
+Burla
+Overkill
+test used Tortazo! Fedejimbo took 46,5 damage.
+Fedejimbo HP: 🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥
+Fedejimbo's turn
+Fedejimbo used Chapa en PowerPoint! test took 10 damage.
+test HP: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥
+Tortazo
+Patada
+Burla
+Overkill
+test used Overkill! Fedejimbo took 3100 damage.
+Item mana_potion was added 2 times
+Fedejimbo died!
+You gained 666€
+You obtained mana_potion x2
+Gained 1 experience points.
+Reached level 3!
+HP +100
+ATK +21
+SPE +15
+MP +0
+
+Tortazo
+Patada
+Burla
+Overkill
+Skip
+Not a valid attack to forget
+Forgot Burla
+Learnt Tortilla!
+Reply Markup removed
+fedejimbo.png
+¡Fedejimbo no te deja pasar de esta esquina!
+Tortazo
+Tortilla
+Patada
+Overkill
+test used Tortilla! Fedejimbo took 780 damage.
+Item mana_potion was added 2 times
+Fedejimbo died!
+You gained 666€
+You obtained mana_potion x2
+Gained 1 experience points.
+Reached level 4!
+HP +100
+ATK +21
+SPE +15
+MP +0
+
+Reply Markup removed

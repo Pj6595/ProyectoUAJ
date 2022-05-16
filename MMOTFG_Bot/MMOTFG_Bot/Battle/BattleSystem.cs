@@ -97,6 +97,8 @@ namespace MMOTFG_Bot
         {
             Dictionary<string, object> update = new Dictionary<string, object>();
 
+            player = JSONSystem.GetPlayer();
+
             update.Add(DbConstants.PLAYER_FIELD_BATTLE_ACTIVE, false);
             update.Add(DbConstants.PLAYER_FIELD_BATTLE_INFO, player.GetSerializable());
             update.Add(DbConstants.PLAYER_FIELD_BATTLER_LIST, null);

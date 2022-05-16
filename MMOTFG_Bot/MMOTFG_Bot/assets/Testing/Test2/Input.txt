@@ -1,3 +1,14 @@
 delete all
-create juan
-go casita
+create test
+drink health_potion
+add health_potion 99
+drink health_potion 2
+eat health_potion
+throw health_potion 2
+equip tfury
+add tfury
+equip tfury
+unequip head
+unequip tfury
+unequip weapon
+inventory

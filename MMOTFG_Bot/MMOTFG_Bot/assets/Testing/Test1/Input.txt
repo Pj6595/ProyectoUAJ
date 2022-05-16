@@ -1,5 +1,10 @@
 delete all
-create patata
-go puerta
+create test
 go south
-overkill fedejimbo
+inspect
+dir
+go puerta
+inspect
+dir
+go puerta
+inspect

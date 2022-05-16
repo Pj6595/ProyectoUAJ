@@ -13,14 +13,16 @@ namespace MMOTFG_Bot
 		public string BasePath = assetsPath + "/Testing";
 		public string InputPath;
 		private string OutputPath;
+		public string SeedPath;
 
 		StreamWriter outputFile;
 
 		public FileCommunicator() {
 		}
 
-		public void Init(string inputPath, string outputPath)
-		{			
+		public void Init(string inputPath, string outputPath, string seedPath)
+		{
+			SeedPath = seedPath;
 			InputPath = inputPath;
 			OutputPath = outputPath;
 			outputFile = new StreamWriter(OutputPath);

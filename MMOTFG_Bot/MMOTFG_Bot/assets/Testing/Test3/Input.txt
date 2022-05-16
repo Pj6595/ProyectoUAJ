@@ -1,5 +1,14 @@
 delete all
-create pablo
-equip sword
-unequip sword
-go casita
+create test
+fight fedejimbo
+tortazo
+burla
+patada
+overkill
+fight fedejimbo
+tortazo
+overkill
+tortilla
+burla
+fight fedejimbo
+tortilla

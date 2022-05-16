@@ -1,0 +1,8 @@
+delete all
+go puerta
+create test
+delete test2
+delete test
+create test2
+nonexistant command
+status
