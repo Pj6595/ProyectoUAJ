@@ -1,4 +1,4 @@
-﻿You need a character to play, use /create to create a new character
+You need a character to play, use /create to create a new character
 Hello test, ready for a good time?
 En mi habitación no hay mucho que ver. Debería bajar a ver qué hacen los demás (o también podría quedarme jugando al Elden Ring lmao).
 Use: delete [character name]. You can only delete you own character!

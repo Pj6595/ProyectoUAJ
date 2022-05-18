@@ -12,7 +12,7 @@ setlocal EnableDelayedExpansion
 
 ::echo:Command extensions v2 or later are available.
 
-dir /a| findstr Test[0-9]*$ > numCarpetas.txt
+dir /ad | findstr Test[0-9]*$ > numCarpetas.txt
 
 for /f "tokens=3" %%f in ('find /c /v "" numCarpetas.txt') do ( set count=%%f ) 
 
@@ -30,9 +30,9 @@ if %index% LEQ %count% (
 
     echo index: !index!
 
-    for /f "tokens=3" %%f in ('find /c /v "" .\\Test%index%\\expectedOutput.txt') do ( set textSize1=%%f ) 
+    for /f "tokens=3" %%f in ('find /c /v "" .\\Test%index%\\expectedOutput.txt') do ( set /A textSize1=%%f ) 
 
-    for /f "tokens=3" %%f in ('find /c /v "" .\\Test%index%\\Output.txt') do ( set textSize2=%%f )
+    for /f "tokens=3" %%f in ('find /c /v "" .\\Test%index%\\Output.txt') do ( set /A textSize2=%%f )
 
     echo Test!index!/expectedOutput.txt
     echo a: !textSize1!
@@ -46,9 +46,9 @@ if %index% LEQ %count% (
 
     fc .\\Test%index%\\expectedOutput.txt .\\Test%index%\\Output.txt > diffResult.txt
 
-    for /f "tokens=3" %%f in ('find /c /v "FC: no se han encontrado diferencias" diffResult.txt') do ( set diffText=%%f ) 
+    for /f "tokens=3" %%f in ('find /c "FC:" diffResult.txt') do ( set /A diffText=%%f ) 
 
-    if !diffText! EQU !numFilas! ( goto :failedDiff )
+    if !diffText! NEQ !numFilas! ( goto :failedDiff )
 
     echo Test !index! completado con exito
 
@@ -61,7 +61,7 @@ if %index% LEQ %count% (
     goto :while
 )
 
-PAUSE
+::PAUSE
 
 :::EXTTEST
 ::if CmdExtVersion 2 exit /b 1
@@ -77,6 +77,8 @@ exit 0
 
 :failedDiff
     echo Los archivos no tienen el mismo contenido
+    TYPE diffResult.txt
+    ::PAUSE
     exit 1
 
 :failedSize

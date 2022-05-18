@@ -1,4 +1,4 @@
-﻿Hello test, ready for a good time?
+Hello test, ready for a good time?
 En mi habitación no hay mucho que ver. Debería bajar a ver qué hacen los demás (o también podría quedarme jugando al Elden Ring lmao).
 fedejimbo.png
 ¡Fedejimbo no te deja pasar de esta esquina!
@@ -6,7 +6,7 @@ Patada
 Burla
 Overkill
 Invalid attack
-Fedejimbo's ATK was multiplied by 0,5!
+Fedejimbo's ATK was multiplied by 0.5!
 test used Burla!
 Fedejimbo's turn
 Fedejimbo used Chapa en PowerPoint! test took 5 damage.
@@ -42,8 +42,8 @@ Tortazo
 Patada
 Burla
 Overkill
-test used Tortazo! Fedejimbo took 46,5 damage.
-Fedejimbo HP: 🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥
+test used Tortazo! Fedejimbo took 31 damage.
+Fedejimbo HP: 🟩🟩🟩🟩🟩🟩🟩🟥🟥🟥
 Fedejimbo's turn
 Fedejimbo used Chapa en PowerPoint! test took 10 damage.
 test HP: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥
