@@ -26,12 +26,12 @@ namespace MMOTFG_Bot.Navigation
         {
             await LoadPlayerPosition(chatId);
 
-            //if (await BattleSystem.IsPlayerInBattle(chatId))
-            //{
-            //    await Program.Communicator.SendText(chatId, "I can't run away from battles!");
-            //}
-            //else
-            //{
+            if (await BattleSystem.IsPlayerInBattle(chatId))
+            {
+                await Program.Communicator.SendText(chatId, "I can't run away from battles!");
+            }
+            else
+            {
                 dir = GetSynonymDirection(dir);
                 //If currentNode doesn't have a connection in that direction, it doesn't move the player.
                 if (currentNode.GetConnectingNode(dir, out nextNode))
@@ -45,7 +45,7 @@ namespace MMOTFG_Bot.Navigation
                 {
                     await Program.Communicator.SendText(chatId, "Can't move in that direction");
                 }
-            //}
+            }
         }
 
         //sets position to a certain node

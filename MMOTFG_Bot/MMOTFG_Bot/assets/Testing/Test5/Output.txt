@@ -12,7 +12,7 @@ test HP: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩
 Patada
 Burla
 Overkill
-I can't run away from battles!
+Mi habitación está al final del pasillo. Justo enfrente está la de Pj. Parece que tiene montada una rave en su habitación??? En fin, la salida está hacia el sur.
 Can't equip gear in battle
 Item health_potion was added 2 times
 Gained 500HP
