@@ -42,8 +42,8 @@ Tortazo
 Patada
 Burla
 Overkill
-test used Tortazo! Fedejimbo took 46,5 damage.
-Fedejimbo HP: 🟩🟩🟩🟩🟩🟩🟥🟥🟥🟥
+test used Tortazo! Fedejimbo took 31 damage.
+Fedejimbo HP: 🟩🟩🟩🟩🟩🟩🟩🟥🟥🟥
 Fedejimbo's turn
 Fedejimbo used Chapa en PowerPoint! test took 10 damage.
 test HP: 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟥
