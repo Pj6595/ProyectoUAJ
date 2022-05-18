@@ -6,7 +6,7 @@ Patada
 Burla
 Overkill
 Invalid attack
-Fedejimbo's ATK was multiplied by 0,5!
+Fedejimbo's ATK was multiplied by 0.5!
 test used Burla!
 Fedejimbo's turn
 Fedejimbo used Chapa en PowerPoint! test took 5 damage.
