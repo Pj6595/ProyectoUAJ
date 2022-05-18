@@ -1,12 +1,3 @@
 Comparando archivos .\\TEST5\\expectedOutput.txt y .\\TEST5\\OUTPUT.TXT
-***** .\\TEST5\\expectedOutput.txt
-Overkill
-I can't run away from battles!
-Can't equip gear in battle
-***** .\\TEST5\\OUTPUT.TXT
-Overkill
-Mi habitación está al final del pasillo. Justo enfrente está la de Pj. Parece que tiene montada una rave en su habitación??
-? En fin, la salida está hacia el sur.
-Can't equip gear in battle
-*****
+FC: no se han encontrado diferencias
 
