@@ -1,3 +1,0 @@
-Comparando archivos .\\TEST5\\expectedOutput.txt y .\\TEST5\\OUTPUT.TXT
-FC: no se han encontrado diferencias
-

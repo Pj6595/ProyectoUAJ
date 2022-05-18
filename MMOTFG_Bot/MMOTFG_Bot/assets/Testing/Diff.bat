@@ -77,6 +77,7 @@ exit 0
 
 :failedDiff
     echo Los archivos no tienen el mismo contenido
+    TYPE diffResult.txt
     ::PAUSE
     exit 1
 
